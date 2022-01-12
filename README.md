@@ -1,2 +1,2 @@
-# minicurso-dev
+# Minicurso-dev
 Programa catalisa
