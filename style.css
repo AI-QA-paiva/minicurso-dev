@@ -1,10 +1,10 @@
 body {
     background-image: linear-gradient(
         180deg,
-        #5c0d32 5%,
-        #df2121a6 20%,
-        #e73010 60%,
-        #d10000 95%
+        #8f990a 5%,
+        #837708a6 20%,
+        #e4e73c 60%,
+        #e4e6c5 95%
     );
     margin: 0;
     min-height: 100vh;
@@ -31,7 +31,7 @@ main > section button {
     border-radius: 10px;
     color: rgb(53, 16, 5);
     font-family: EuclidBold;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: -0.6px;
     line-height: 20px;
@@ -51,5 +51,35 @@ main > section button {
 }
 
 #detalhes-container > li p {
-    color: white;
+    color: rgb(87, 90, 226);
+}
+
+#detalhes-container1 {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+#detalhes-container1 > li {
+    align-items: baseline;
+    display: flex;
+}
+
+#detalhes-container1 > li p {
+    color: rgb(87, 90, 226);
+}
+
+#detalhes-container2 {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
+}
+
+#detalhes-container2 > li {
+    align-items: baseline;
+    display: flex;
+}
+
+#detalhes-container2 > li p {
+    color: rgb(87, 90, 226);
 }

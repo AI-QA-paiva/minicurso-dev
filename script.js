@@ -1,9 +1,4 @@
-/*const imagem = document.getElementsByTagName('img');*/
-/*const imagem = document.querySelector('img');*/
-
 const imagens = document.querySelectorAll('img')
-/*alert(imagens[0].src)*/
-
 const botao = document.querySelector('button');
 
 const nomeDoPersonagem = document.querySelector('#nome');
@@ -72,3 +67,4 @@ pegarPersonagem = () => {
 }
 
 botao.onclick = pegarPersonagem;
+
